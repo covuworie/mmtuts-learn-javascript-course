@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+    </head>
+    <body>
+        
+    </body>
+    <script>
+
+        // Conditional Statements
+        var x = 10;
+        var y = 50;
+
+        if (x == 10 || y < 20 ) {
+            console.log("If!");
+        }
+
+        if (x == 10 && y < 20) {
+            console.log("If!");
+        } else if (x > 50) {
+            console.log("Else if!");
+        } else {
+            console.log("Else!");
+        }
+
+        // Nested
+        var gender = "Male";
+        age = 26;
+
+        if (gender === "Male") { /* 3 equals checks the value and type! */
+            if (age >= 18) {
+                console.log("You are a " + gender + " and above the age limit!");
+            } else {
+                console.log("Sorry dude!")
+            }
+        } else if (gender == "Female") {
+            if (age >= 18) {
+                console.log("You are a " + gender + " and above the age limit!");
+            } else {
+                console.log("Sorry lady!")
+            }
+        } else {
+            console.log("Can't figure out your gender!")
+        }
+    
+    </script>
+</html>
