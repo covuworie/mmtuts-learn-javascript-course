@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is an example of a meta description. This will often show up in search engine results.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+    </head>
+    <body>
+
+        <form>
+            Value 1: <input type="number" value=0 id="value1">
+            <br>
+            Value 2: <input type="number" value=0 id="value2">
+            <br>
+            Operator:
+            <select id="operator">
+                <option value="add">Add</option>
+                <option value="min">Minus</option>
+                <option value="div">Divide</option>
+                <option value="mul">Multiply</option>
+            </select>
+            <!-- Event added as an attribute -->
+            <button type="button" onclick="calc()">Calculate</button>
+        </form>
+
+        <div id="result"></div>
+
+    </body>
+    <script src="main.js"></script>
+</html>
