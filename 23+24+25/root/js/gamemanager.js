@@ -21,6 +21,8 @@ let GameManager = {
 
         // Update the interface
         // This is not good as there is no way to validate the HTML.
+        // The HTML template tag is probably the way to go:
+        // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template
         let getInterface = document.querySelector(".interface");
         getInterface.innerHTML = '<img src="img/avatar-player/' + playerType.toLowerCase() + '.png" class="img-avatar"><div><h3>' + playerType + '</h3><p class="health-player">Health: ' + player.health + '</p><p>Mana: ' + player.mana + '</p><p>Strength: ' + player.strength + '</p><p>Agility: ' + player.agility + '</p><p>Speed: ' + player.speed + '</p></div>';
     },
