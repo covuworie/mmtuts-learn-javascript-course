@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="This is an example of a meta description. This will often show up in search engine results.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+    </head>
+    <body>
+
+    </body>
+    <script>
+        let getRandomNumber = function (start, end) {
+            // let getRandom = Math.floor((Math.random() * end) + start);
+            // while (getRandom > end) {
+            //     getRandom = Math.floor((Math.random() * end) + start);
+            // }
+            // Much better than looping
+            let getRandom = Math.floor((Math.random() * (end - start)) + start);
+            return getRandom;
+        }
+        console.log(getRandomNumber(5, 10));
+    </script>
+</html>
