@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-btn {
+    background-color: #000;
+    padding: 30px 15px;
+    line-height: 60px;
+}
+
+.menu {
+    width: 300px;
+    margin-top: 10px;
+    margin-left: -300px;
+}
+
+.menu ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu ul li {
+    margin-top: 1px;
+    background-color: #000;
+    padding: 10px;
+}
