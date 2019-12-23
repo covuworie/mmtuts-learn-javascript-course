@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 500px;
+    background-color: #2b2d2f;
+}
+
+a {
+    text-decoration: none;
+}
+
+.test-btn {
+    margin-top: 100vh;
+    text-align: center;
+    padding: 10px;
+    background-color: darkgray;
+    margin-left: 170px;
+    margin-right: 170px;
+}
