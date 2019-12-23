@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 500px;
+    background-color: #2b2d2f;
+}
+
+a {
+    text-decoration: none;
+}
+
+.test-form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: lightgray;
+    margin: 20px 100px 0;
+    padding: 20px 0;
+}
+
+.test-form button {
+    background-color: darkgray;
+    padding: 1px 50px;
+    margin-top: 5px;
+}
+
+.test-btn {
+    margin-top: 100vh;
+    text-align: center;
+    padding: 10px;
+    background-color: darkgray;
+    margin-left: 170px;
+    margin-right: 170px;
+}
